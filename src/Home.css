@@ -1,0 +1,107 @@
+@font-face{
+    src: url(./fonts/Goldbill_XS_Font_Family/Goldbill-XL-Light-300.ttf);
+    font-family: Goldbill;
+}
+
+@font-face{
+  src: url(./fonts/Mazzard/MazzardH-Bold.otf);
+  font-family: Mazzard-bold;
+}
+
+@font-face{
+    src: url(./fonts/Mazzard/MazzardH-ExtraLight.otf);
+    font-family: Mazzard-light;
+  }
+
+.home-cont-bg{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url(./images/smart-home.jpg);
+    height: 620px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.home-bg-text > h1{
+    font-family: Mazzard-bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    /* color: #33393D; */
+}
+
+.home-bg-text > p {
+    color: white;
+    font-family: Mazzard-light;
+}
+
+.home-bg-text > button{
+    height: 60px;
+    width: 150px;
+    background-color: #017AE1;
+    border: none;
+    font-family: Mazzard-bold;
+    letter-spacing: 1px;
+    font-weight: 100;
+    border-radius: 2px;
+    color: aliceblue;
+}
+
+.home-bg-text-cont{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    padding-left: 215px;
+}
+
+.home-info{
+    height: 600px;
+}
+
+.jumbotron{
+    background-color: #E6EBF1;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    z-index: -100;
+}
+
+.jumbotron-cont{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-around;
+}
+
+.jumbotron-cont > h1 {
+    color: #017AE1;
+    font-family: Mazzard-bold;
+}
+
+.jumbo-arrow{
+    height: 70px;
+}
+
+.services-cont{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.services > h3{
+    font-family:  Mazzard-light;
+}
+
+.services > img{
+    height: 60px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
